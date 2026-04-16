@@ -1,0 +1,18 @@
+From: intern@newcompany.com
+To: support@ourservice.com
+Subject: How do I add a custom field to the project template?
+
+Hi Support,
+
+I'm fairly new to your platform and I'm trying to add a custom field (a dropdown with 4 options) to our project template so that every new project automatically includes it. I've found the "Custom Fields" section in settings, but when I try to add the field to the template, it doesn't seem to save.
+
+Steps I've taken:
+1. Created the field in Settings → Custom Fields
+2. Opened the project template
+3. Added the field to the template layout
+4. Clicked Save — but the field disappears when I reopen the template
+
+Is there a specific save button I'm missing, or is there a known issue with this workflow?
+
+Thanks a lot!
+Jamie (Intern, New Company Ltd)

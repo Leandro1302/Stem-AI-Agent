@@ -1,0 +1,20 @@
+From: dev-partnerships@connectorapp.com
+To: business@ourservice.com
+Subject: API integration partnership — ConnectorApp
+
+Hello,
+
+ConnectorApp is a workflow automation platform serving 8,000+ SMB customers. Your platform has come up repeatedly in feature requests from our user base — they want to connect it to the 200+ tools we already integrate with.
+
+We're reaching out to explore a formal technology partnership. Specifically, we'd like to:
+1. Build a native integration using your public API
+2. Get listed as an official integration partner on your website
+3. Potentially co-market to each other's audiences
+
+We already have integrations with Salesforce, Notion, Linear, and 197 others. Our average integration takes 2 weeks to build once we have API access.
+
+Could we schedule a 30-minute intro call with your partnerships or developer relations team?
+
+Best,
+Tom Nakamura
+Head of Developer Partnerships, ConnectorApp

@@ -1,0 +1,17 @@
+From: newuser@consulting.com
+To: support@ourservice.com
+Subject: Just signed up — a few onboarding questions
+
+Hello,
+
+I signed up yesterday and I'm trying to get my team set up. A few questions:
+
+1. How do I invite team members? I can see a "Team" section in settings but the invite button seems greyed out.
+2. Is there a way to import data from our old tool (Notion)? I saw something in the docs about a CSV import but couldn't find the option in the UI.
+3. Do you have a getting-started guide or onboarding call option? I'd rather not spend 3 hours experimenting.
+
+I'm on the 14-day trial and want to make the most of it before deciding whether to upgrade.
+
+Thanks,
+Ben Carter
+Independent Consultant

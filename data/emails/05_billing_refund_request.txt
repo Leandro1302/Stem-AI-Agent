@@ -1,0 +1,15 @@
+From: solo.dev@gmail.com
+To: billing@ourservice.com
+Subject: Refund request — accidentally upgraded to annual plan
+
+Hi,
+
+I accidentally clicked "Switch to Annual" yesterday and was immediately charged $480 for a full year. I meant to just review the pricing page — I didn't intend to confirm the upgrade.
+
+I noticed the charge within 2 hours and immediately tried to revert, but the UI only offered to "cancel at end of term," not to undo the charge.
+
+I'm a solo developer on a tight budget. I'd like a full refund and to stay on the monthly plan ($45/month). I haven't used any annual-plan-exclusive features.
+
+Account: solo.dev@gmail.com | Charge date: April 12, 2024 | Amount: $480.00
+
+Thank you for understanding.

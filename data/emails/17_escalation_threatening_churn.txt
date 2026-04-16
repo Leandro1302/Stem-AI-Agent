@@ -1,0 +1,21 @@
+From: ops-manager@logistics-firm.com
+To: support@ourservice.com
+Subject: We are evaluating switching to your competitor — one last chance
+
+Hello,
+
+I'm writing this as a last resort before we begin migrating to [Competitor]. We've been customers for 2.5 years, paying $890/month on the Business plan.
+
+Over the last quarter, we've experienced:
+- 3 unplanned outages (total ~6 hours of downtime)
+- A billing error that took 6 weeks to resolve
+- A feature we rely on daily ("bulk status update") was deprecated with 2 weeks notice and no migration path
+
+We gave you three chances to fix these issues through normal support channels. Nothing has changed.
+
+What would keep us: a dedicated account manager, a written commitment on uptime, and some kind of credit for the disruptions.
+
+What happens next if we don't hear back in 48 hours: we begin data export and start our 30-day cancellation process.
+
+— Operations Manager
+Logistics Firm (withheld pending response)

@@ -1,0 +1,18 @@
+From: teamlead@smallteam.com
+To: support@ourservice.com
+Subject: How do I change the primary billing email on the account?
+
+Hello,
+
+Our finance team has a new email address and I need to update the billing contact on our account. The invoices are currently going to an old address that nobody monitors anymore.
+
+I've looked in Account Settings → Billing but I can see the current billing email displayed, not an option to edit it.
+
+Could you tell me how to change this, or can you update it on your end?
+
+Old billing email: old-finance@smallteam.com
+New billing email: finance@smallteam.com
+Account owner: teamlead@smallteam.com
+
+Thanks,
+Tom

@@ -1,0 +1,14 @@
+From: devteam@healthapp.com
+To: support@ourservice.com
+Subject: CRITICAL BUG: Patient record export corrupting data in production
+
+We have discovered a critical bug in production affecting the patient record export feature. Since yesterday's 18:00 UTC deploy, exported CSV files are transposing values between the "medication_dosage" and "medication_frequency" columns.
+
+This is a healthcare application. Corrupted export data could directly impact patient safety. We have already disabled the export feature on our side, but we need to know:
+1. Whether this is a known regression in the latest build
+2. Whether any historical exports from the last 24 hours are affected and can be re-generated cleanly
+3. A hotfix timeline
+
+This is a P1 for us. Our compliance officer is already involved.
+
+Account ID: #ENT-40219 | Contact: eng-lead@healthapp.com

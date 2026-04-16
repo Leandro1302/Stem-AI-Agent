@@ -1,0 +1,18 @@
+From: analyst@marketingco.com
+To: feedback@ourservice.com
+Subject: Feature request: bulk export with column filtering
+
+Hi Product Team,
+
+Our analytics team exports data from your platform weekly. Right now the export always includes all 40+ columns, which means we spend significant time in Excel trimming it down to the 8 columns we actually need.
+
+We'd love a "custom export" feature where you can:
+1. Select which columns to include before generating the file
+2. Save column presets so you don't have to re-select every time
+3. Schedule recurring exports (e.g. every Monday at 08:00)
+
+This would probably save our team 2+ hours per week. I know at least three other companies in our industry cohort who would find this valuable too.
+
+Happy to jump on a call with your product team if that would help scope it.
+
+— Elena Varga, Senior Analyst

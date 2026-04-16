@@ -1,0 +1,2951 @@
+{
+  "before": {
+    "metrics": {
+      "successful": 66.7,
+      "partially_successful": 33.3,
+      "unsuccessful": 0.0,
+      "total": 30
+    },
+    "episodes": [
+      {
+        "episode_id": "BEFORE-ep-0001",
+        "task_input_summary": "Critical production outage impacting 12,000 active users, requiring immediate escalation to engineering.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identified the urgency and importance of escalating the issue."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "escalate_issue",
+          "judgment": "not_assessable",
+          "notes": "The action space is empty; therefore, appropriateness of this action cannot be assessed."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response acknowledges the issue's urgency and promises to escalate correctly, aligning with support standards."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Establish a protocol for prioritizing urgent support tasks."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0002",
+        "task_input_summary": "Critical bug report related to patient record export corruption in a healthcare application, asking for information on regression status, impact on historical exports, and hotfix timeline.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the urgency and nature of the task, focusing on critical inquiries related to a healthcare bug."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "investigating known regression",
+            "judgment": "not_assessable",
+            "notes": "The workflow step cannot be evaluated as no steps were explicitly outlined in the specialization state."
+          },
+          {
+            "step": "assessing historical exports",
+            "judgment": "not_assessable",
+            "notes": "The workflow step cannot be evaluated as no steps were explicitly outlined in the specialization state."
+          },
+          {
+            "step": "providing hotfix timeline",
+            "judgment": "not_assessable",
+            "notes": "The workflow step cannot be evaluated as no steps were explicitly outlined in the specialization state."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_bug_report",
+          "judgment": "appropriate",
+          "notes": "The action chosen aligns with the task requirements, addressing a critical issue promptly."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output addresses all questions clearly and maintains a professional tone suitable for a high-stakes situation."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "clarity",
+            "judgment": "met",
+            "notes": "The response is clear and well-structured."
+          },
+          {
+            "criterion": "professionalism",
+            "judgment": "met",
+            "notes": "The tone is appropriately formal considering the context."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Consider structuring responses with bullet points for better readability in crisis communication."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "BEFORE-ep-0003",
+        "task_input_summary": "A support request regarding missing product catalog data with questions about recovery options.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identified the urgency and nature of the request regarding data recovery."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond",
+          "judgment": "not_assessable",
+          "notes": "Action space is empty, making it impossible to assess the appropriateness of the chosen action."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response acknowledges the urgency, indicates an understanding of the problem, and commits to address the concerns, though it lacks specific adherence to any guidelines."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Develop formalized response protocols for data recovery inquiries.",
+          "Establish guidelines on handling urgent support cases to improve future responsiveness."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0004",
+        "task_input_summary": "A billing inquiry regarding two identical charges of $129.00 on April 1st, requesting confirmation of a duplicate charge and a refund timeline.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent understood the task correctly as it involves responding to a billing inquiry about duplicate charges."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "prepare_response",
+          "judgment": "not_assessable",
+          "notes": "The action chosen cannot be assessed as the action_space is empty."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The output contains an appropriate response to the task, addressing the concern and outlining next steps."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Define clear action space and goals for future episodes to improve assessment accuracy.",
+          "Develop workflow steps and quality criteria to standardize responses."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0005",
+        "task_input_summary": "Refund request due to accidental upgrade to the annual plan.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identifies the task as a refund request stemming from an accidental upgrade."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "process_refund_request",
+          "judgment": "not_assessable",
+          "notes": "The action chosen is not assessable due to the lack of defined action_space in the specialization state."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The output provides the correct information and solution regarding the refund in a clear manner."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Define action space to ensure actions can be properly assessed in future episodes.",
+          "Consider implementing quality criteria for better evaluation of outputs."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0006",
+        "task_input_summary": "Request for an itemized breakdown of Invoice #INV-20240312 and confirmation of W-9 status.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identifies the need for an itemized breakdown and acknowledges the request for W-9 confirmation."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "generate_invoice_breakdown_and_confirm_w9",
+          "judgment": "not_assessable",
+          "notes": "Action appropriateness cannot be evaluated as the action space is empty."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The output addresses the requests adequately but lacks specific details about the timeline for sending the updated invoice."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Consider including a timeline for when the requested information will be sent.",
+          "Expand action space to include specific actions for handling invoice requests."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0007",
+        "task_input_summary": "A feature request for a custom export functionality from an analyst, detailing specific needs for the export feature.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood correctly as it involves responding to a feature request with appreciation and an invitation to discuss further."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "compose_feedback_response",
+          "judgment": "appropriate",
+          "notes": "The chosen action to respond to the feature request is appropriate as it aligns with the expectation of acknowledging and considering user feedback."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response is acceptable as it acknowledges the request, expresses appreciation, and invites further dialogue, though it lacks specific details about next steps."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Consider including specific next steps or timelines in responses to enhance clarity and user engagement."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0008",
+        "task_input_summary": "Feedback request for a native Slack integration with specific features and concerns about Zapier.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent accurately interpreted the task as a response to a feature request concerning integration with Slack."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "responding to user feedback",
+            "judgment": "correct",
+            "notes": "The response appropriately acknowledges the request and indicates that it is under consideration."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_feedback_request",
+          "judgment": "appropriate",
+          "notes": "The selected action of responding to the feedback request aligns well with customer support practices."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output effectively communicates acknowledgment, appreciation, and suggests potential project consideration."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to clearly acknowledge user requests and emphasize community feedback in responses."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0009",
+        "task_input_summary": "Request for multi-step approval workflows with specific requirements indicated by the Operations Lead of a Creative Agency.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identifies the task as a request for a multi-step approval workflow and addresses all aspects of the request."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "compose_response",
+            "judgment": "not_assessable",
+            "notes": "The workflow hypothesis does not include explicit steps to evaluate."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "compose_response",
+          "judgment": "not_assessable",
+          "notes": "The action space is empty, making it difficult to assess appropriateness."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The output response addresses the request adequately, providing information on each requested feature."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "clarity",
+            "judgment": "not_assessable",
+            "notes": "Quality criteria are not defined in the specialization state."
+          },
+          {
+            "criterion": "completeness",
+            "judgment": "not_assessable",
+            "notes": "Quality criteria are not defined in the specialization state."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Future specialization should define actionable steps in the workflow hypothesis.",
+          "Consider expanding the action space to include different response types for better evaluation."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0010",
+        "task_input_summary": "Customer inquiry about SaaS pricing plans and features.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent accurately understood the customer's request for clarification about the pricing plans."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "compose_response",
+            "judgment": "correct",
+            "notes": "The response effectively addresses each of the customer's questions in a clear and professional manner."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "compose_response",
+          "judgment": "appropriate",
+          "notes": "The action to compose a response is fitting given the task of answering customer inquiries."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The final output is well-structured and provides clear answers to the customer's questions, aligning with the goals."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure to maintain clarity and professionalism in responses to customer inquiries."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "BEFORE-ep-0011",
+        "task_input_summary": "Ben Carter inquires about onboarding procedures for team setup, data import, and available resources during a trial period.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identifies the customer's onboarding questions and addresses them appropriately."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond_to_inquiry",
+          "judgment": "not_assessable",
+          "notes": "There is no explicit workflow hypothesis outlined in the specialization state to assess the action taken."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response is informative and directly addresses the user's questions, although it could be more succinct."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Clarify the permissions related to trial accounts explicitly to prevent confusion regarding features.",
+          "Ensure the instructions provided for data import are easily visible to enhance user experience."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0012",
+        "task_input_summary": "Request for an extension of a trial period and inquiry about a nonprofit discount.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the request for a trial extension and the inquiry about nonprofit discounts."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "respond to trial extension request",
+            "judgment": "not_assessable",
+            "notes": "There are no specific workflow steps outlined in the workflow_hypothesis to evaluate."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_trial_extension_request",
+          "judgment": "not_assessable",
+          "notes": "The action was relevant to the task but the action space is currently empty, so appropriateness cannot be determined."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response is polite, addresses both parts of the request, and maintains a professional tone."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "not_assessable",
+            "judgment": "not_assessable",
+            "notes": "No specific quality criteria provided in the specialization_state."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Consider integrating specific workflow steps to enhance decision-making processes.",
+          "Develop an action space to clarify decision-making framework."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0013",
+        "task_input_summary": "Email promoting dubious SEO services with unrealistic guarantees.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood correctly as the email clearly indicated characteristics of spam."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "report_spam",
+          "judgment": "inappropriate",
+          "notes": "The action cannot be assessed properly given the empty action_space."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The output appropriately acknowledges the spam content and expresses intent to report it."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Clarify action space to enable appropriate actions in future episodes."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0014",
+        "task_input_summary": "An email inquiry from a business development outreach asking to schedule a call regarding vendor situation.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task involves drafting a response to a business outreach inquiry, which the agent understood correctly."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "Draft a response to the email inquiry",
+          "judgment": "appropriate",
+          "notes": "The chosen action to draft a response is appropriate given the nature of the task."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The output is a professional response that addresses the inquiry and proposes a time for a call."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Determine a more specific approach in interactions as goals become clearer.",
+          "Enhance understanding of vendor situations to provide more tailored responses."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0015",
+        "task_input_summary": "Email claiming an outstanding invoice from a misspelled domain requesting immediate payment.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent identified the email as a phishing attempt based on characteristics such as urgency and a misspelled domain."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "Recognizing phishing characteristics",
+            "judgment": "correct",
+            "notes": "The agent effectively recognizes urgency, misspelled sender domain, and threatening language as indicators of a phishing scam."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "flag_as_phishing",
+          "judgment": "appropriate",
+          "notes": "The action taken is appropriate given the identified phishing characteristics."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The response is informative, providing clear advice against clicking links and emphasizing verification through official channels."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "Clarity of communication",
+            "judgment": "met",
+            "notes": "The output is clear and provides actionable advice."
+          },
+          {
+            "criterion": "Relevance of response",
+            "judgment": "met",
+            "notes": "The response is directly relevant to the task concerning the phishing email."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure awareness of common phishing indicators like domain misspellings and urgent language."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0016",
+        "task_input_summary": "David Chen, CTO of Mid-Market Co, requests an urgent call regarding four unresolved support tickets that violate SLA terms.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent demonstrated a clear understanding of the urgency and the specific request for escalation."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "escalate_request",
+          "judgment": "appropriate",
+          "notes": "Escalating the request aligns with the client's urgent need and the contractual obligations outlined in the task input."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output effectively acknowledges the issues and promises appropriate escalation, meeting customer expectations."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure prompt escalation of urgent support inquiries to adhere to SLA terms.",
+          "Maintain a tone of urgency and accountability in communications with clients."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0017",
+        "task_input_summary": "Email from an operations manager expressing dissatisfaction with current services and indicating a potential switch to a competitor, outlining specific issues and desired resolutions.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent understood the urgent nature of the task and the specific issues raised by the customer."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "draft_response",
+          "judgment": "not_assessable",
+          "notes": "There is no defined action_space to evaluate the appropriateness of the chosen action."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response addresses the customer's concerns directly and proposes solutions, aligning with standard customer service practices."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure to define action_space and output_policy for more targeted evaluations.",
+          "Implement structured quality criteria for responses."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0018",
+        "task_input_summary": "Customer expresses frustration over unresolved issue with auto-save feature and demands immediate managerial attention, a specific fix date, and compensation.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly understood the customer's frustrations and demands."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "Draft response to customer email",
+          "judgment": "appropriate",
+          "notes": "The action taken aligns well with the needs expressed in the customer's email."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The response is professional, empathetic, and addresses all of the customer's demands effectively."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain a focus on empathy and escalation in customer service responses.",
+          "Ensure clarity on actions taken and timelines in communication."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "BEFORE-ep-0019",
+        "task_input_summary": "User reports issue with password reset link saying it is expired or invalid and requests manual password reset.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent recognized the user's issue with the password reset link and requests for assistance."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond_to_user_request",
+          "judgment": "appropriate",
+          "notes": "The agent took a suitable action by addressing the user's issue directly and proposing a solution."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response is appropriate and acknowledges the user's issue while offering ways to proceed."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure responses align with user issues without specific workflow guidelines."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0020",
+        "task_input_summary": "Request to change primary billing email address due to an update from the finance team. The requestor cannot find how to do this in the account settings.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task involves responding to a customer inquiry about updating the billing email, which was understood correctly."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_request",
+          "judgment": "not_assessable",
+          "notes": "The action cannot be evaluated as the current action_space is empty and does not provide context for what actions are appropriate."
+        },
+        "output_feedback": {
+          "judgment": "poor",
+          "notes": "While the response addresses the request, it fails to follow any established guidelines or specific output policies, resulting in low-quality output for an unspecified standard."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Establish clear action space and output policy to guide responses in future episodes.",
+          "Clarify goals and quality criteria for effective customer support communications."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0021",
+        "task_input_summary": "A user asked for help on adding a custom field to a project template and reported issues with saving the field.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly understood the task as providing support for a technical issue related to saving custom fields in a project template."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond",
+          "judgment": "not_assessable",
+          "notes": "No specific workflow steps were defined in the specialization state, making it impossible to evaluate the appropriateness of the action."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response provided relevant troubleshooting steps and addressed the user's inquiry but lacked specific details about potential known issues."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Clarify known issues in responses to improve user guidance.",
+          "Include references to specific save buttons or processes frequently encountered by users."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0022",
+        "task_input_summary": "Positive feedback from a director regarding a platform's performance during a chaotic quarter and improvements to the mobile app.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identified the need to craft a positive and appreciative response to client feedback."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "generate_feedback_response",
+          "judgment": "not_assessable",
+          "notes": "Without a defined action space, it is unclear whether the chosen action aligns with any expectations."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response is appreciative and acknowledges the client's feedback, aligning with general communication standards."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Clarify the action space and output policy for better evaluability.",
+          "Establish defined goals and quality criteria to improve future responses."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0023",
+        "task_input_summary": "A customer offers to provide a testimonial and inquires about a referral program.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood correctly as a request for a professional response to a customer's offer for feedback."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond",
+          "judgment": "not_assessable",
+          "notes": "The action was appropriate, but no workflow steps were provided to evaluate against."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The response is professional, acknowledges the offer for a testimonial, and provides information about the referral program."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure that responses include acknowledgment of customer feedback and encourage further engagement.",
+          "Clarify referral program details in customer communications."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0024",
+        "task_input_summary": "Leila Ahmadi provided feedback on the NPS survey, rated it 9/10, and recommended the platform to a colleague while expressing concerns about notification settings.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent understood the task by acknowledging the positive feedback and addressing the concerns raised."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "send_response",
+          "judgment": "not_assessable",
+          "notes": "The action chosen cannot be assessed due to the lack of defined action_space."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response adequately acknowledges the feedback, addresses the concern, and expresses gratitude for the referral."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Need to define action space and output policy to better guide response actions.",
+          "Consider establishing clearer goals to enhance focus on customer feedback."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0025",
+        "task_input_summary": "ConnectorApp seeks a formal partnership to build a native API integration and co-market services.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was well understood as it aims to initiate a dialogue for a technology partnership."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond_to_partnership_request",
+          "judgment": "appropriate",
+          "notes": "The action is suitable for addressing the request for a partnership and next steps."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The response is appropriately structured, covering key points from the initial request and prompting next steps."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Consider including specific details about internal team availability in future responses.",
+          "Ensure consistent use of formal closing signatures in communication."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "BEFORE-ep-0026",
+        "task_input_summary": "Inquiry about a reseller/white-label partnership from an IT consultancy managing software procurement for SMB clients.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood as a professional response to a partnership inquiry, addressing specific questions asked by the prospective partner."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond_to_inquiry",
+          "judgment": "not_assessable",
+          "notes": "The action was appropriate to the task, but the workflow steps are not provided in the specialization state for evaluation."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response addressed all questions clearly and professionally, although the placeholder for discount information was not filled in."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Include actual margin/discount information in responses to improve completeness."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "BEFORE-ep-0027",
+        "task_input_summary": "Proposal for co-marketing opportunities involving a sponsored podcast episode and a joint webinar.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the task as responding to a co-marketing proposal."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond_to_co-marketing_opportunity",
+          "judgment": "inappropriate",
+          "notes": "The action was not appropriate as there were no clear action_space defined in the specialization state."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The response was polite and demonstrated interest, which is typically suitable for such proposals, despite the lack of clear action guidelines."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Define action_space clearly to guide appropriate action selections in future proposals."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0028",
+        "task_input_summary": "An email was mistakenly sent to an external support address instead of an internal distribution list regarding the Q2 All-Hands meeting.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task of forwarding the mistakenly sent email to the intended recipients was understood correctly."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "Identify the mistake",
+            "judgment": "correct",
+            "notes": "The agent correctly identified that the email was sent to the support address by mistake."
+          },
+          {
+            "step": "Forward the email",
+            "judgment": "correct",
+            "notes": "The agent executed the forwarding action appropriately with context."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "forward_email_to_intended_recipient",
+          "judgment": "appropriate",
+          "notes": "Forwarding the email to the intended recipient aligns with the required action."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output successfully conveyed the necessary information and context to the intended recipients."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure forwarding includes context to clarify the mistake.",
+          "Maintain awareness of internal vs external communications."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "BEFORE-ep-0029",
+        "task_input_summary": "An internal email containing retrospective notes from Sprint 22, mistakenly sent to the support inbox, requesting review before a planning session.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified that the task involved handling an email sent to the wrong address and needed to redirect it."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "analyze task input",
+            "judgment": "correct",
+            "notes": "The task input was accurately analyzed to understand that it was an internal communication misdirected to the support inbox."
+          },
+          {
+            "step": "determine action",
+            "judgment": "correct",
+            "notes": "The decision to redirect the email was correctly identified as the appropriate action in this context."
+          },
+          {
+            "step": "compose response",
+            "judgment": "correct",
+            "notes": "The response was composed appropriately, maintaining professionalism and clarity."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "redirect",
+          "judgment": "appropriate",
+          "notes": "Redirecting the email back to the correct team was a suitable response to prevent miscommunication."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was clear, professional, and addressed the issue at hand effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "clarity",
+            "judgment": "met",
+            "notes": "The response was clear and understandable."
+          },
+          {
+            "criterion": "professionalism",
+            "judgment": "met",
+            "notes": "The response maintained a professional tone throughout."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Improving internal email handling processes could enhance future communications management."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "BEFORE-ep-0030",
+        "task_input_summary": "Meeting request follow-up with available times for scheduling.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task of scheduling a follow-up meeting based on provided availability was understood correctly."
+        },
+        "workflow_step_feedback": [],
+        "action_feedback": {
+          "chosen_action": "respond_to_meeting_request",
+          "judgment": "appropriate",
+          "notes": "The action to respond to the meeting request is appropriate as it addresses the scheduling requirements."
+        },
+        "output_feedback": {
+          "judgment": "acceptable",
+          "notes": "The output contains a proposed time for the meeting and addresses the attendees, but lacks clarity regarding the need to confirm the general support inbox situation."
+        },
+        "quality_feedback": [],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Future responses should clarify misdirected inquiries when relevant.",
+          "Include explicit follow-up questions to confirm details if context is uncertain."
+        ],
+        "overall_result": "partially_successful",
+        "suggest_evolution_review": true
+      }
+    ]
+  },
+  "after": {
+    "metrics": {
+      "successful": 100.0,
+      "partially_successful": 0.0,
+      "unsuccessful": 0.0,
+      "total": 30
+    },
+    "episodes": [
+      {
+        "episode_id": "AFTER-ep-0001",
+        "task_input_summary": "A critical production outage affecting all services, with a request for immediate engineering escalation.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the task as critical and requiring immediate escalation."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the urgency based on the critical nature of the outage."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent understood the context of a production outage and its impact on revenue."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent escalated the issue as required by the task."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and structured."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "correct",
+            "notes": "The agent appropriately escalated the issue given the criticality."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "escalate_issue",
+          "judgment": "appropriate",
+          "notes": "The chosen action aligns directly with the urgent nature of the task and the defined action space."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The final output was well-structured, professional, clear, and appropriately empathetic regarding the critical issue."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and easy to follow."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The professional and adaptable communication style was effectively implemented."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and appropriate for addressing a critical issue."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to ensure clarity and empathy in communications, especially under critical scenarios.",
+          "Maintain responsiveness in escalation processes to uphold service standards."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0002",
+        "task_input_summary": "A critical bug report from the development team regarding patient record export issues requiring urgent attention.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identified the task as responding to a critical bug report and addressed the urgency and specific inquiries from the development team."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the urgency of the situation and addressed it accordingly."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent understood the context regarding the healthcare application and the impact on patient safety."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response was tailored to the critical nature of the inquiry and provided informative answers."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The output was structured clearly, with separate points addressing each question from the bug report."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "There is no evidence of escalation needs within the output."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_bug_report",
+          "judgment": "appropriate",
+          "notes": "The action aligns well with the requirements of the task and is suitable given the critical nature of the report."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The final output is well-structured, professional, and addresses the concerns raised in the task input effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized with clear sections for each inquiry."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style is professional and adaptable to the urgency of the message."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and appropriate given the critical nature of the issue."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Emphasize clarity and urgency in responses to critical issues in the future."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0003",
+        "task_input_summary": "An urgent request from the CTO of an e-commerce brand regarding missing product catalog data that affects their spring catalog launch, with specific questions about data recovery options.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the urgency and critical nature of the request regarding lost data."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The urgency was clearly acknowledged in the response."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of the issue was well understood, impacting an important business operation."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The decision to escalate the issue was appropriate given the situation."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and well-structured."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "correct",
+            "notes": "The issue was escalated to the data recovery team as required."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "escalate_issue",
+          "judgment": "appropriate",
+          "notes": "Escalating the issue was the correct response given the severity and urgency of the situation."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-organized, followed the output policy, and addressed the CTO's concerns effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and tailored to the inquiry's urgency."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication was professional and adaptable to the context."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and appropriately addressed the critical nature of the issue."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure continued emphasis on urgency in communications for critical issues.",
+          "Maintain clarity and structure in responses to facilitate understanding."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0004",
+        "task_input_summary": "Email regarding a duplicate charge on a company card.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly understood the task as addressing a billing inquiry regarding duplicate charges."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The urgency of the billing issue was correctly identified."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of the duplicate charges was understood and confirmed."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response addressed the issue appropriately, confirming the error and outlining the refund process."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and structured in line with the evidence."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was needed or indicated, so this step cannot be assessed."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action was appropriate for addressing the support ticket on billing."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-organized, professional, and aligned with the output policy."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-structured and tailored to the inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The style was professional and adaptable to the context of a billing inquiry."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring while addressing the critical issue of refunding the duplicate charge."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain clarity in communication to prevent confusion in billing issues.",
+          "Continue to improve response strategies for handling customer inquiries."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0005",
+        "task_input_summary": "A refund request from a user who accidentally upgraded to an annual plan and wants a full refund.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the user's request for a refund due to an accidental upgrade."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent identified the financial concern as urgent given the user's budget constraints."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The response acknowledged the user's accidental upgrade and lack of usage of annual-plan features."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent provided a clear resolution and addressed the refund request directly."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was well-organized and conveyed the necessary information clearly."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No indication that escalation was required in this case."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action aligns well with the task at hand, as it involves direct engagement with the user."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output is professional, empathetic, and follows the output policy effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized and tailored to the inquiry."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The response demonstrates professional and adaptable communication."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and empathetic."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue emphasizing empathy in user communication for issues involving finance.",
+          "Maintain clear workflow adherence to enhance consistency in responses."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0006",
+        "task_input_summary": "Request for itemized breakdown of an invoice and confirmation of W-9 on file.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identifies the request for a detailed breakdown of the invoice and confirmation of the W-9."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent understands the urgency implied by the need for a detailed invoice to process payment."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of the request and its implications for payment processing are correctly identified."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent provides a structured response addressing all points raised in the original request."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "Response is well-organized and communicates the necessary details clearly."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No need to escalate was indicated; therefore, this step is not assessable."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action is suitable as it directly addresses the support ticket request."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output is well-structured, professional, and adequately addresses the request."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is organized and follows a clear structure."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style is professional and suitable for the context."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and appropriate for addressing crucial issues related to payment processing."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to ensure all points from user requests are addressed clearly.",
+          "Maintain professional tone in all communications."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0007",
+        "task_input_summary": "A feature request for customizable bulk export options including column selection, saving presets, and scheduling recurring exports.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood correctly as a request for enhancing an existing feature."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The response acknowledged the urgency associated with improving the export process to save time."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent identified the context of the request as it relates to product usability and user efficiency."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response was appropriate, expressing appreciation for the feedback and indicating potential actions."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and well-structured, providing a comprehensive response."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "There was no indication of escalation in the response, making this step not assessable."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The action chosen is appropriate as it directly responds to a support ticket regarding a feature request."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output is well-organized, professional, and addresses the user's request effectively, aligning with the goals."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized and follows a clear structure."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The style is professional and adaptable to the context of user feedback."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and positive, suitable for addressing user input."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to encourage feedback from users as it helps identify valuable features.",
+          "Maintain clarity and professionalism in communication to enhance user trust."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0008",
+        "task_input_summary": "Marcus T. from SaaSTeam requested a native Slack integration for better communication.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the request for a native integration as needing a response to a support ticket."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the importance of the request and the urgency related to community interest."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of the request was accurately understood, including the limitations of current integration options."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response was appropriate, addressing the user's request and acknowledging the community interest."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and organized, outlining key points effectively."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "There is no evidence to assess escalation since the response didn't indicate a need to escalate."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The action chosen is appropriate for the task as it involves responding to a customer support inquiry."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output is well-organized, professional, and meets the goals of clear communication and reassurance."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized and tailored to the inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style is professional and adaptable."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and addresses the critical issues mentioned."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to prioritize user requests that have community support.",
+          "Maintain clarity and professionalism in responses to enhance user engagement."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0009",
+        "task_input_summary": "Request for a multi-step approval workflow feature on the platform.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood correctly as it involved responding to a request for feature implementation."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The urgency is do to the implications of not having an approval chain as noted in the request."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context was clearly understood as a request about improving client deliverables."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response appropriately addressed the feature request."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and well-structured."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "Escalation was not necessary in this episode."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The action chosen was appropriate as it aligned with the task of addressing a support ticket."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-structured, professional, and reassuring, fulfilling the output policy."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and tailored to the inquiry."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The style was professional and suitable for the context."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring, addressing the user's needs adequately."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain clarity and reassurance in communications with clients regarding feature requests.",
+          "Continue to consider the urgency of client needs in response actions."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0010",
+        "task_input_summary": "Aisha Okafor, co-founder of a startup, inquires about specific details on the differences between the Pro and Business plans, API rate limits, migration fees, and discounts available for startups.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent accurately identified the nature of the inquiry and the urgency expressed by the potential client."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the urgency due to the prospect's readiness to move quickly."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context was accurately determined based on the specific questions asked by the potential client."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent's response addressed each question clearly and thoroughly."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was well-organized and communicated clearly."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "Escalation was not needed in this case, but no evidence is available to assess if it would have been appropriate."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action aligns well with the task of clarifying inquiries about the products."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The final output is well-structured, meets the goals of clarity and professionalism, and addresses all inquiries effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized and tailored to the inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication is professional and adaptable."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring, addressing the prospective client's needs and critical issues empathetically."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain emphasis on clarity and detail in responses to improve customer satisfaction.",
+          "Continue to recognize urgency in client communications as it impacts response strategies."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0011",
+        "task_input_summary": "User has onboarding questions regarding team invitations, data import, and getting-started resources.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task input was well understood, and the agent's response addressed all the user's questions."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the urgency given the user's desire to maximize the trial experience."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of onboarding and technical support was correctly identified."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent provided appropriate and clear responses to each question."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was clear and organized, facilitating understanding."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "There was no indication in the task input that escalation was required."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action was suitable given the nature of the inquiry."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-structured, professional, and addressed the user's concerns effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and tailored to the user's inquiries."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The style was professional and adaptable, fitting the context of support."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and empathetic towards the user's frustrations."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to enhance clarity in communications, especially in technical support scenarios.",
+          "Maintain a reassuring tone while addressing complex user inquiries."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0012",
+        "task_input_summary": "A nonprofit organization requests a 14-day extension of their trial period due to delays in internal procurement approval.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identified the urgency based on the trial expiration date and understood the context of the nonprofit's request."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the urgency of the request due to the impending trial expiration."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent understood the nonprofit's constraints around procurement approval and responded appropriately."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent provided a favorable response to the request for an extension."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was well-organized and conveyed information clearly."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was necessary in this case."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The action taken was appropriate as it directly addressed the support ticket from the nonprofit."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The final output was well-structured, professional, clear, and included reassurance regarding data loss."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and tailored to the inquiry."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication was professional and adaptable to the needs of the nonprofit."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring, addressing critical issues effectively."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain clarity and reassurance in responses to sensitive requests.",
+          "Continuously update policies on nonprofit engagement to enhance communication."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0013",
+        "task_input_summary": "An unsolicited promotional email offering backlinks with questionable legitimacy.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the input as spam and understood the need for a professional response."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent identified the email as spam, which is a priority issue."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of the message as a promotional offer was recognized."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent provided a professional response that addressed the spam nature."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was clear and conveyed the company's stance effectively."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "There was no escalation needed for this type of email."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action was appropriate for addressing a support ticket concerning a spam email."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-organized, clear, and aligned with the output policy and goals."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-structured and tailored to the inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The style of communication was professional and adaptable."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and addressed the context appropriately."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain clarity and professionalism in responses to unsolicited inquiries.",
+          "Reinforce the importance of identifying spam and responding appropriately."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0014",
+        "task_input_summary": "An outreach email asking about vendor situation and proposing a call.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly understood the task as responding to a potential partnership inquiry."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The inquiry was recognized as related to a potential partnership, indicating urgency."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of partnership exploration was correctly identified."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response directed the inquiry to the appropriate team and encouraged further information."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was clear and provided necessary information while maintaining professionalism."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "correct",
+            "notes": "The action to forward the inquiry indicates appropriate escalation."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The action chosen aligns well with the need to respond to the inquiry while facilitating communication with the relevant department."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output is well-structured, maintains a professional tone, and adheres to the output policy."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized and fits the inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style is professional and adaptable."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and appropriately addresses the inquiry's context."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to ensure inquiries are redirected to appropriate teams effectively.",
+          "Maintain clarity and professionalism in communications for partnership discussions."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0015",
+        "task_input_summary": "An urgent email regarding an outstanding invoice requiring immediate payment, with potential consequences for non-payment.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identified the email as urgent and requiring careful handling due to the potential phishing attempt."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The urgency of the invoice was recognized and acknowledged in the response."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of potential phishing was accurately assessed based on the sender's domain."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response effectively warned the customer and provided clear instructions."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was clear and well-structured, facilitating understanding."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was needed in this instance as the response was sufficient."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The action taken was relevant to the nature of the received ticket."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output adhered well to the goals of clarity and professionalism, adequately addressing the potential phishing issue."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and tailored to address the urgent nature of the inquiry."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication maintained a professional tone throughout."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring while addressing a critical issue."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Enhance identification and communication strategies for potential phishing attempts.",
+          "Continue ensuring clarity and professionalism in urgent communication."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0016",
+        "task_input_summary": "CTO David Chen requests urgent call with a Director due to unresolved support tickets breaching SLA, threatening legal action if no response.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identifies the urgency and critical nature of the task based on the CTO's email."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent accurately recognized the urgency stemming from the email."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent understood the context of the unresolved tickets and SLA violation."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent chose to escalate the issue, which was appropriate given the context."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was clear and communicated the urgency effectively."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "correct",
+            "notes": "The agent appropriately escalated the matter as requested by the CTO."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "escalate_issue",
+          "judgment": "appropriate",
+          "notes": "Escalating the issue aligns well with the urgency and the request for a higher-level conversation."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-organized, professional, and reassuring, aligning with the output policy."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and easy to follow."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication maintained a professional tone."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and empathetic towards the CTO's frustrations."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Ensure to always recognize and prioritize urgent escalations from clients."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0017",
+        "task_input_summary": "Client expresses dissatisfaction with outages, billing errors, and a deprecated feature, threatening to switch to a competitor unless certain conditions are met.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent recognized the urgency and critical nature of the client's concerns."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent acknowledged the urgency of the client's situation early in the response."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent accurately assessed the context of the complaints and the threat to switch providers."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent provided specific solutions and acknowledgments of past issues."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was well-structured and easy to read, addressing each concern point-by-point."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was deemed necessary in the response, and thus it cannot be evaluated."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action was suitable given the nature of the client's concerns and the agent's goals."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was professional, clear, and addressed the client's specific concerns while proposing a path forward."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and tailored to effectively respond to the client's inquiries."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style was professional and adaptable, which is appropriate for the situation."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and empathetic, crucial for addressing the client's frustrations."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to enhance clarity and empathy in responses.",
+          "Reinforce the importance of personalizing communication for client retention."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0018",
+        "task_input_summary": "Customer is frustrated about a broken auto-save feature and wants a manager to take ownership, a specific fix date, and compensation for service disruption.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the customer's frustration and urgency, acknowledging the history of the issue."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the urgency from the customer's multiple follow-ups and expressed empathy."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent understood the context of the issue based on the customer's detailed complaints."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent's response addressed all key customer demands appropriately."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response is well-structured and clear, effectively communicating the next steps."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "correct",
+            "notes": "The agent escalated the issue to a manager as per the customer's request."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action was suitable for addressing the customer's urgent concerns."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output meets the quality criteria for structure and tone, effectively addressing the customer\u2019s frustrations."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized and tailored to the customer\u2019s inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style is professional and adapts to the customer's frustration."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and empathetic, addressing the critical issues effectively."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue emphasizing urgency and empathy in responses to frustrated customers.",
+          "Ensure detailed communication around timelines and compensation to enhance customer satisfaction."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0019",
+        "task_input_summary": "User reports an issue with password reset links saying they are invalid and requests a manual reset.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent accurately understood that the user was unable to reset their password due to invalid links."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the urgency associated with account access issues."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent correctly identified the context as a support ticket concerning password reset."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent's response was appropriate, offering to manually reset the password."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and structured, addressing the user's issue and providing instructions."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "Escalation was not necessary in this case, so this step is not assessable."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "Responding to the support ticket with a manual reset was appropriate given the context."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-organized, empathetic, and aligned with the goals of enhancing clarity and support."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and properly structured."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style was professional and adaptable."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and empathetic, addressing user frustrations effectively."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain high responsiveness and clarity when dealing with account access issues.",
+          "Ensure communication remains empathetic and supportive in critical situations."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0020",
+        "task_input_summary": "A team lead requests to change the primary billing email on their account due to the old email being no longer monitored.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent understood that the task is to provide instructions for changing a billing email, which is a straightforward account management issue."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the urgency based on the request to promptly change the billing email."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context is clearly identified as it involves account management and billing email updates."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response was appropriate, confirming the update on the agent's end."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was well-structured and conveyed the necessary information clearly."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "There was no need for escalation in this case, and the process did not provide evidence of needing it."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action aligns well with the support request and falls well within the defined action space."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-organized, professional, and addressed the user's inquiry directly, adhering to the output policy."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was clearly structured and tailored to the type of inquiry."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style was professional and adaptable to the situation."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring, addressing the critical issue of billing updates effectively."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to maintain clarity and professionalism in responses.",
+          "Ensure responsiveness to inquiries that require immediate attention."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0021",
+        "task_input_summary": "Intern requests assistance on adding a custom field to a project template and indicates steps taken but issues encountered.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly interpreted the intern's request and issue regarding adding a custom field."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The urgency is contextualized as the intern is experiencing a technical issue that affects their work."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent accurately gathered context from the intern's detailed explanation."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response included troubleshooting steps and reassurances, aligning with the task's needs."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The agent provided a clear, structured response that addresses the issue comprehensively."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "There was no indication that escalation was necessary; the agent provided troubleshooting steps instead."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "This action aligns well with the identified support needs of the intern."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The response was professional, well-structured, and addressed the specific concerns effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized with a clear layout."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style was professional and adapted to the inquiry."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and empathetic, aligning with the user's frustrations."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue using detailed user descriptions for effective troubleshooting.",
+          "Maintain a balance of empathy and professionalism in responses."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0022",
+        "task_input_summary": "Positive feedback from a director about the platform's effectiveness during a challenging period, with specific mention of improvements in mobile app functionality.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identified the task as responding to positive feedback."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "not_assessable",
+            "notes": "The task did not indicate urgency and the response did not address this explicitly."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent understood the context of positive feedback and recognition of the platform's features."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response was appropriately positive and thanked the user for their feedback."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and well-structured."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "Escalation was not applicable as the feedback was positive."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action aligns well with the task, as it involved responding to positive feedback."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The response is well-structured, professional, and addresses the user's feedback effectively, fulfilling goals of improving communication."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized, following a logical format."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The style was professional and adapted to the context of positive feedback."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and appreciative, addressing the user's positive experience."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to reinforce positive feedback in communications to enhance user satisfaction.",
+          "Maintain clarity and professionalism to ensure effective communication."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0023",
+        "task_input_summary": "Customer Marco Rossi offers a testimonial and asks about a referral program.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the customer\u2019s intent to provide a testimonial and inquire about referral opportunities."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The customer\u2019s inquiry reflects a positive urgency to share feedback and seek information promptly."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent acknowledged the context of customer feedback and potential referral interest."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response appropriately addressed both the testimonial and the referral inquiry."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was clear and structured in conveying gratitude and next steps."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was necessary in this episode."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The action aligns with addressing the customer\u2019s formal inquiry about a testimonial and other offers."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output is well-structured, professionally written, and addresses the customer\u2019s inquiries effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized with clear sections for gratitude and inquiries."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The tone is professional and supportive, aligning with the customer\u2019s needs."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and appropriate for addressing customer concerns and gratitude."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to maintain a positive tone and professionalism in customer communications.",
+          "Ensure clarity in action steps for customer feedback and referral inquiries."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0024",
+        "task_input_summary": "HR Technology Lead provides feedback on NPS survey and recommends platform to a colleague.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The agent correctly identifies the main points of feedback and the referral provided in the task input."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the feedback's importance and urgency regarding user experience."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent accurately captured the context of the feedback and referral."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response directly addresses the feedback and expresses appreciation."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication is clear and professional, as expected."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was required and thus not applicable for evaluation."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action aligns well with the task and the content of the ticket."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output meets the goals of clarity, professionalism, and reassurance effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized and structured appropriately for the inquiry."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The style is professional and adaptable, fitting the context of the communication."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is both reassuring and empathetic, addressing feedback positively."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Reinforce the importance of acknowledging referrals in responses.",
+          "Continue to seek clarity in addressing user feedback effectively."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0025",
+        "task_input_summary": "A request from ConnectorApp to explore a formal technology partnership, including building a native integration and co-marketing opportunities.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the task as a partnership inquiry and responded appropriately."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the request as urgent due to its partnership nature."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of the request as a potential partnership was understood."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response was tailored to the inquiry with a clear expression of interest."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was professional, clear, and relevant to the request."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "Escalation was not necessary in this case."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action was suitable for addressing the inquiry."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The final output was well-structured, professional, and effectively addressed the client's request."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and followed a clear structure."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style was professional and adaptable."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and appropriate for the context."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to enhance clarity and professionalism in partnership communications.",
+          "Focus on timely follow-ups to scheduling requests to keep momentum in potential partnerships."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0026",
+        "task_input_summary": "Inquiry on reseller partnership and related support from IT consultancy.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood as the agent provided a comprehensive response to a partnership inquiry."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The urgency of a business partnership was recognized."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of a reseller partnership was appropriately established."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response was tailored directly to the inquiries made."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and professional, enhancing understanding."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No need for escalation was indicated in this scenario."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action aligns well with the inquiry type and objectives."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output was well-organized, professional, and addressed all the queries effectively."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and tailored to the inquiries."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The style was professional and maintained throughout the response."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring and addressed the partnership context effectively."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain clarity and professionalism in partnership communications.",
+          "Ensure detailed responses to all inquiries enhance understanding."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      },
+      {
+        "episode_id": "AFTER-ep-0027",
+        "task_input_summary": "Email proposal for co-marketing opportunities including a sponsored episode and a joint webinar.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The stem agent correctly identified the proposal as a partnership opportunity and responded appropriately."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The agent recognized the need for a timely response to the partnership offer."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The agent understood the context of a co-marketing opportunity."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The agent formulated a response that addressed both proposals effectively."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was organized and clear, presenting the information well."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was required based on the task provided."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action aligns well with the content of the task input, which involved responding to a partnership inquiry."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The final response is well-structured, maintains a professional tone, and clearly addresses the proposals presented."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized and tailored to the inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style is professional and adaptable."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and appropriate for the context of partnership discussions."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue enhancing clarity in communication to maintain strong partnerships.",
+          "Focus on addressing potential user frustrations empathetically in future communications."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0028",
+        "task_input_summary": "An email reminder about the Q2 All-Hands meeting was sent to the external support address by mistake.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood correctly as recognizing the misaddressed email and the need to respond appropriately."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The urgency of correcting the misdirected email was identified."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of the email being intended for internal communication was correctly understood."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response effectively redirected the sender to the correct internal team."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The response was clear and conveyed the necessary information succinctly."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was necessary, and thus this step isn't relevant."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action was suitable for addressing the misdirected email."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output met the clarity and professionalism expectations, addressing the goals of enhancing internal communication."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response was well-organized and tailored to the inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style was professional and appropriate for the context."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone was reassuring, effectively addressing the critical issue."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain clarity in identifying misdirected communications.",
+          "Continue reinforcing redirection to appropriate internal channels."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0029",
+        "task_input_summary": "An internal communication about Sprint 22 retrospective notes sent to the support inbox by mistake.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task was understood as responding to a misrouted internal email."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "not_assessable",
+            "notes": "The urgency of the email is not explicitly addressed in the response."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of the email being internal communication is correctly identified."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response appropriately addresses the misrouting of the email."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication is clear and directly addresses the mistake."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "No escalation was necessary in this instance."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The chosen action was suitable given the task context."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The response was clear, professional, and aligned with the communication goals."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "The response is well-organized, separating subject and content effectively."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication is professional and adaptable to the context."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring and appropriate for addressing the misrouting."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Continue to enhance clarity in miscommunication responses.",
+          "Consider addressing the urgency of tasks even if it's not explicitly mentioned."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": true
+      },
+      {
+        "episode_id": "AFTER-ep-0030",
+        "task_input_summary": "A scheduling request for a follow-up meeting from an executive assistant.",
+        "task_understanding": {
+          "judgment": "correct",
+          "notes": "The task requires a response to a meeting request, which was well understood."
+        },
+        "workflow_step_feedback": [
+          {
+            "step": "identify urgency",
+            "judgment": "correct",
+            "notes": "The urgency was correctly assessed as high based on the nature of the request."
+          },
+          {
+            "step": "determine context",
+            "judgment": "correct",
+            "notes": "The context of internal communication with a vendor was accurately identified."
+          },
+          {
+            "step": "respond appropriately",
+            "judgment": "correct",
+            "notes": "The response was appropriate as it directly addressed the meeting request."
+          },
+          {
+            "step": "communicate clearly",
+            "judgment": "correct",
+            "notes": "The communication was clear and organized."
+          },
+          {
+            "step": "escalate if necessary",
+            "judgment": "not_assessable",
+            "notes": "Escalation is not applicable in this context."
+          }
+        ],
+        "action_feedback": {
+          "chosen_action": "respond_to_support_ticket",
+          "judgment": "appropriate",
+          "notes": "The action taken aligns with the action space and the task's requirements."
+        },
+        "output_feedback": {
+          "judgment": "good",
+          "notes": "The output is well-structured, clear, and professional, meeting the goals and output policy."
+        },
+        "quality_feedback": [
+          {
+            "criterion": "structure",
+            "judgment": "met",
+            "notes": "Response is well-organized and tailored to the inquiry type."
+          },
+          {
+            "criterion": "style",
+            "judgment": "met",
+            "notes": "The communication style is professional and adaptable."
+          },
+          {
+            "criterion": "tone",
+            "judgment": "met",
+            "notes": "The tone is reassuring, which is appropriate given the context."
+          }
+        ],
+        "observed_failure_modes": [],
+        "learning_signals": [
+          "Maintain clarity in future communications without assuming context."
+        ],
+        "overall_result": "successful",
+        "suggest_evolution_review": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+From: ops@fintech-startup.io
+To: support@ourservice.com
+Subject: P1 CRITICAL: Full production outage — all services unreachable since 09:14 UTC
+
+Our entire production stack has been down since 09:14 UTC this morning. All API endpoints returning 503. Load balancer health checks failing. Approximately 12,000 active users affected. We process payments — every minute of downtime is direct revenue loss (~$15k/min).
+
+Steps already taken:
+- Rolled back last deployment (no effect)
+- Restarted all app server instances
+- Verified database connectivity — DB is healthy and accepting connections
+- Checked CDN configuration — no changes in last 72h
+
+We need engineering escalation immediately. Please treat as SEV1. Our CTO is already on a call demanding a timeline.
+
+Account: fintech-startup.io | Plan: Enterprise | Support SLA: <15min response
+
+— Ravi Mehta, VP Engineering
+Direct: +1-650-555-0142

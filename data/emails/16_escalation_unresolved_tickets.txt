@@ -1,0 +1,19 @@
+From: cto@mid-market-co.com
+To: support@ourservice.com
+Subject: Four open tickets, zero resolutions — I need to speak with a director today
+
+I have four open support tickets that have been unresolved for an unacceptable amount of time:
+
+Ticket #61002 — opened 31 days ago (API rate limit bug)
+Ticket #61448 — opened 24 days ago (webhook delivery failures)
+Ticket #62190 — opened 16 days ago (SSO configuration broken)
+Ticket #63001 — opened 9 days ago (data export timeout)
+
+Every ticket has been "escalated to engineering" at least once. None have seen any resolution or even a meaningful status update.
+
+We are on your Enterprise plan. Our contract explicitly states a 4-hour response SLA and a 72-hour resolution SLA for critical issues. Every one of these tickets violates that contract.
+
+I am requesting an urgent call with a Director of Support or VP of Customer Success today. If I do not hear back within 2 hours, I will be involving our legal team regarding SLA breach remedies.
+
+— David Chen, CTO
+Mid-Market Co. | Account #ENT-20045

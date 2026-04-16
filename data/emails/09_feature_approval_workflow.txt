@@ -1,0 +1,20 @@
+From: ops.lead@agency.net
+To: feedback@ourservice.com
+Subject: Request: multi-step approval workflows
+
+Hi,
+
+We manage client deliverables through your platform and currently have no way to enforce an approval chain before items go live. We need:
+
+1. Ability to define an approval sequence (e.g. Author → Team Lead → Client)
+2. Each approver gets an email notification when it's their turn
+3. Comments/rejection reasons are captured and visible to all parties
+4. Items cannot be published/finalized until all approvals are collected
+
+Right now we're tracking this in a separate spreadsheet which is error-prone and slow. This single feature would probably move 3 more enterprise clients onto your platform for us.
+
+Is this on your roadmap? If so, is there a beta program we could join?
+
+Regards,
+Fatima Al-Hassan
+Operations Lead, Creative Agency

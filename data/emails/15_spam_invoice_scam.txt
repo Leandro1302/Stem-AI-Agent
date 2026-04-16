@@ -1,0 +1,23 @@
+From: accounts-payable@ourservlce-billing.com
+To: support@ourservice.com
+Subject: URGENT: Outstanding invoice #98341 — payment required within 24 hours
+
+Dear Customer,
+
+Your account has an OUTSTANDING BALANCE of $3,847.00 that must be settled within 24 hours to avoid service interruption and late fees.
+
+Invoice #98341
+Amount Due: $3,847.00
+Due Date: IMMEDIATE
+
+To pay securely, click: http://ourservlce-billing.com/pay?token=abc123FAKE
+
+Failure to pay will result in:
+- Immediate account suspension
+- Referral to collections
+- Negative credit reporting
+
+This is your FINAL NOTICE.
+
+OurServlce Billing Department
+[Note: sender domain is "ourservlce" — misspelled, not the real company]

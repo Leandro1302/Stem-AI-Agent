@@ -1,0 +1,19 @@
+From: comms@another-company.org
+To: support@ourservice.com
+Subject: [INTERNAL] Engineering team update — sprint 22 retrospective notes
+
+Team,
+
+Sharing the retrospective notes from Sprint 22. Please review before our planning session Thursday.
+
+Key takeaways:
+- Auth service refactor is 2 sprints behind schedule — need to discuss resourcing
+- QA automation coverage improved from 61% to 74%
+- Three action items from last retro still open (see attached doc)
+
+Action items for Sprint 23:
+1. @backend-lead: finalize API versioning decision by Wednesday
+2. @devops: set up staging environment parity checklist
+3. @all: update your estimates in the project tracker by EOD Monday
+
+[Note: This is an internal company communication sent to our support inbox by mistake — the recipient address is wrong.]

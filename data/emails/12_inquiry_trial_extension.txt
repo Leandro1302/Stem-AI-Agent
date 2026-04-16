@@ -1,0 +1,17 @@
+From: procurement@nonprofit.org
+To: support@ourservice.com
+Subject: Trial extension request — procurement approval taking longer than expected
+
+Hello,
+
+We're a nonprofit organization evaluating your platform for volunteer coordination. Our 14-day trial expires on April 18th, but our internal procurement approval process requires a minimum of 30 days for new SaaS tools above $200/month.
+
+We've been actively testing during the trial and are very interested in moving forward. We'd just like to avoid any data loss or access interruption while we complete our paperwork.
+
+Could you extend our trial by 14 days? Account email: procurement@nonprofit.org.
+
+As a registered 501(c)(3) we'd also like to ask whether you offer a nonprofit discount.
+
+Thank you,
+Clara Nguyen
+Technology Coordinator, Helping Hands Nonprofit

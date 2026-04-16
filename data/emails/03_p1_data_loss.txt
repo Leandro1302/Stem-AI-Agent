@@ -1,0 +1,17 @@
+From: cto@ecommerce-brand.com
+To: support@ourservice.com
+Subject: URGENT: 3 weeks of product catalog data appears to have been deleted
+
+We are missing approximately 3 weeks of product catalog entries — roughly 8,400 SKUs added between March 15 and April 5. They are no longer visible in the dashboard or via the API. We did not delete them intentionally.
+
+We noticed this during a routine inventory audit this morning. Our last known-good backup predates the affected window.
+
+Questions:
+1. Do you have server-side snapshots or soft-delete records we can restore from?
+2. Is there any audit log showing what triggered the deletion?
+3. What is the data retention period for deleted records?
+
+This is blocking our entire spring catalog launch. Please escalate to your data recovery team immediately.
+
+— James Wu, CTO
+ecommerce-brand.com | Account #PRO-88831

@@ -1,0 +1,21 @@
+From: hr-admin@ourcompany-internal.com
+To: support@ourservice.com
+Subject: Q2 All-Hands Meeting — Friday 3pm — RSVP required
+
+Hi everyone,
+
+Quick reminder that our Q2 All-Hands is this Friday at 3:00pm in Conference Room B (and on Zoom for remote staff).
+
+Agenda:
+- Q1 results review (Finance)
+- Product roadmap preview (Product)
+- New HR policies effective May 1 (HR)
+- Open Q&A
+
+Please RSVP using the link below so we can arrange catering:
+[internal RSVP link]
+
+See you there!
+— HR Admin Team
+
+[Note: This email appears to have been sent to our external support address by mistake — intended for an internal distribution list.]

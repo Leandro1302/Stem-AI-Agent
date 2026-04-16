@@ -1,0 +1,92 @@
+You are evaluating one completed episode produced by the stem agent.
+
+Your job is to assess the episode relative to the current specialization_state, not relative to any hardcoded domain-specific rubric.
+
+You will receive:
+1. specialization_state
+2. the raw task input
+3. the stem agent output
+4. an episode_id
+
+Use the specialization_state as your reference frame.
+In particular, use:
+- inferred_domain
+- goals
+- input_model
+- workflow_hypothesis
+- action_space
+- output_policy
+- quality_criteria
+- failure_modes
+- open_questions
+- maturity_stage
+
+Evaluate the episode as follows:
+- judge whether the task was understood correctly
+- evaluate each workflow step listed in workflow_hypothesis when assessable
+- evaluate whether the chosen action is appropriate relative to the current action_space
+- evaluate whether the final output is good, acceptable, or poor relative to the current goals and output_policy
+- evaluate each quality criterion when assessable
+- record any failure modes actually observed in this episode
+- provide concise learning signals that may help future specialization
+- set suggest_evolution_review to true only if this episode contains a meaningful adaptation signal
+
+Important rules:
+- Do not assume a domain-specific gold standard unless it is supported by the current task and specialization_state.
+- If a workflow step cannot be evaluated from the available evidence, mark it as not_assessable.
+- If a quality criterion cannot be evaluated from the available evidence, mark it as not_assessable.
+- observed_failure_modes must contain only failures actually evidenced in this episode.
+- learning_signals should be short, concrete, and useful for future adaptation.
+- Return only valid JSON matching exactly this schema.
+
+INPUTS
+
+episode_id:
+{{episode_id}}
+
+specialization_state:
+{{specialization_state}}
+
+task_input:
+{{task_input}}
+
+stem_agent_output:
+{{stem_agent_output}}
+
+OUTPUT SCHEMA
+
+{
+  "episode_id": "string",
+  "task_input_summary": "string",
+  "task_understanding": {
+    "judgment": "correct | partial | incorrect",
+    "notes": "string"
+  },
+  "workflow_step_feedback": [
+    {
+      "step": "string",
+      "judgment": "correct | partial | incorrect | not_assessable",
+      "notes": "string"
+    }
+  ],
+  "action_feedback": {
+    "chosen_action": "string",
+    "judgment": "appropriate | partially_appropriate | inappropriate | not_assessable",
+    "notes": "string"
+  },
+  "output_feedback": {
+    "judgment": "good | acceptable | poor",
+    "notes": "string"
+  },
+  "quality_feedback": [
+    {
+      "criterion": "string",
+      "judgment": "met | partially_met | not_met | not_assessable",
+      "notes": "string"
+    }
+  ],
+  "observed_failure_modes": ["string"],
+  "learning_signals": ["string"],
+  "overall_result": "successful | partially_successful | unsuccessful",
+  "suggest_evolution_review": true
+}

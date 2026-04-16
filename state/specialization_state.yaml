@@ -1,0 +1,28 @@
+action_space:
+- escalate_issue
+- respond_to_bug_report
+- respond_to_support_ticket
+domain_confidence: null
+failure_modes: []
+goals:
+- Enhance clarity in internal communications
+- Improve response strategies for partnership discussions
+inferred_domain: Internal Communication and Partnership Management
+input_model: {}
+maturity_stage: specializing
+open_questions: []
+output_policy:
+  structure: well-organized response
+  style: professional and clear communication
+  tone: reassuring when addressing critical issues
+quality_criteria:
+  structure: well-organized response tailored to the inquiry type
+  style: professional and adaptable communication
+  tone: reassuring when addressing critical issues and empathetic when addressing
+    user frustrations
+workflow_hypothesis:
+- identify urgency
+- determine context
+- respond appropriately
+- communicate clearly
+- escalate if necessary

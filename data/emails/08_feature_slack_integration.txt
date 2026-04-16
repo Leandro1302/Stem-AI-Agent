@@ -1,0 +1,20 @@
+From: pm@saas-team.com
+To: feedback@ourservice.com
+Subject: Please add a native Slack integration
+
+Hello,
+
+We use Slack as our primary communication tool and currently copy-paste notifications from your platform into our #ops channel manually. A native Slack integration would be a game changer for us.
+
+Specifically, we'd want to trigger Slack messages when:
+- A workflow completes or fails
+- A new item crosses a threshold we set
+- A team member is assigned to a task
+
+We know you have Zapier support, but the latency and extra cost make it impractical for high-frequency events. A first-party Slack app would be much better.
+
+This is one of the top requests in your community forum too — I counted at least 47 upvotes on that thread.
+
+Thanks,
+Marcus T.
+Product Manager, SaaSTeam

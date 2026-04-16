@@ -1,0 +1,20 @@
+From: ap@retailchain.com
+To: billing@ourservice.com
+Subject: Invoice #INV-20240312 — need itemized breakdown for accounting
+
+Hello,
+
+Our accounts payable team requires an itemized breakdown of Invoice #INV-20240312 (total: $1,247.00, dated March 12, 2024) before we can process payment. The current invoice only shows a single line item "Platform Services."
+
+We need it broken down by:
+- Base subscription fee (seats × rate)
+- Any add-ons or overage charges
+- Applicable taxes by jurisdiction (we operate in three states)
+
+Additionally, can you confirm your W-9 is on file? Our accounting system requires it for vendor payments above $600.
+
+Please send the updated invoice and W-9 to ap@retailchain.com. Payment will be processed within 5 business days of receipt.
+
+Thanks,
+Sandra Reyes
+Accounts Payable, RetailChain Inc.
